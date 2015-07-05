@@ -1,0 +1,28 @@
+{
+  "name": "module-name",
+  "version": "10.3.1",
+  "description": "An example module to illustrate the usage of a package.json",
+  "author": "Your Name <you.name@example.org>",
+  "contributors": [{
+    "name": "Chad Rempp",
+    "email": "crempp@gmail.com"
+  }],
+  "main": "js/game.js",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/crempp/code203-poc"
+  },
+  "keywords": [
+    "game",
+    "pixi"
+  ],
+  "dependencies": {
+    "http-server": "0.8.0"
+  },
+  "devDependencies": {},
+  "preferGlobal": true,
+  "private": true,
+  "subdomain": "foobar",
+  "analyze": true,
+  "license": "Proprietary"
+}
